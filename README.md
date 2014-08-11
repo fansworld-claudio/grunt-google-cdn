@@ -21,14 +21,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-google-cdn');
 ```
 
-Run this task with the `grunt cdnify` command.
+Run this task with the `grunt googlecdnify` command.
 
 ### Configuration
 
 Within your Gruntfile.js file, you need to specify the html directory that contains the html referencing your CDN files.
 
 ```js
-cdnify: {
+googlecdnify: {
   options: {
     cdn: require('google-cdn-data')
   }

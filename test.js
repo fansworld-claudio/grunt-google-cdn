@@ -1,9 +1,9 @@
 'use strict';
 
-exports.cdnify = {
+exports.googlecdnify = {
   loads: function (test) {
-    var cdnify = require('./tasks/cdnify');
-    test.ok(cdnify !== undefined);
+    var googlecdnify = require('./tasks/googlecdnify');
+    test.ok(googlecdnify !== undefined);
 
     test.done();
   }
